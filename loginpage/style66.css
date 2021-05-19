@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: khaki;
+    background-image: url('https://image.ibb.co/cO9Lxq/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.form{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left{
+    display:inline-flex;
+    font-family: 'Original Surfer', cursive;
+    color:rgb(245, 244, 243);
+}
+.left h4{
+    text-align: center;
+}
+.left form{
+    margin-left:40px;
+    margin-top:35px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: rgb(14, 5, 2);
+}
+.info{
+    margin-left:60px;
+    font-weight: lighter;
+}
+.info input{
+    border-radius: 10px;
+    height: 20px;
+    outline:none;
+}
+.info spam{
+    margin-left:16px;
+    font-weight:lighter;
+    text-decoration: none;
+}
+.left button{
+    margin-left: 75px;
+    font-family: 'Original Surfer', cursive;
+    background-color: rgba(247, 211, 7, 0.89);
+    color:rgb(161, 60, 60);
+    font-weight: bolder;
+    cursor: pointer;
+    height: 40px;
+    width:150px;
+    border-radius: 30px;
+    outline:none;
+}
