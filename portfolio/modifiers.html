@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>class/member modifier</title>
+    <link rel="stylesheet" href="designpage.css">
+    <link rel="icon" href="javalogo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="logo">
+        <a href="adhyankendramain.html"><img src="javalogo.png" alt="loading" height="100" width="100"></a> 
+    </div>
+    <hr>
+    <div class="class_modifier">
+        <h3><b><u>Class Modifiers</u></b>:-</h3>
+        <article>The class modifiers basically describe the behaviour of the class.</article>
+    </div>
+    <div class="class_modifier_content">
+        <h3>
+            Case-I(public)
+        </h3>
+        <p>
+            public class Test{<br>
+                block of codes<br>
+            }
+        </p>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;When the class modifier is public then we can user anywhere either within the class or outside the class.</i></h2>
+        <h3>
+            Case-II(default)
+        </h3>
+        <p>
+            class Test{<br>
+                block of codes<br>
+            }
+        </p>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;When the class modifier is deafult then that class is only used within the package.</i></h2>
+        <h3>
+            Case-III(abstract)
+        </h3>
+        <p>
+            abstract class Test{<br>
+                block of codes<br>
+            }
+        </p>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;When the class modifier is abstract then the object creation is not allowed.Abstract mean that the defination of the class is not clearly defined.</i></h2>
+        <h3>
+            Case-IV(final)
+        </h3>
+        <p>
+            final class Test{<br>
+                block of codes<br>
+            }
+        </p>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;When the class modifier is final then the child class creation is not allowed but when the class is not final then child class creation is allowed.</i></h2>
+        <h3>Important Facts:-</h3>
+        <p1>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Based on these modifiers we specify the rules to the JVM that means the characteristics of the class.</i><br><br>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;In the higher class decleration only public,deafult,final are allowed, but when we use inner class then private, protected, & static are alowed including public, default, abstract & final.</i>
+        </p1>
+        <h3>
+            Feasibility:-
+        </h3>
+        <p2>
+            public+abstract+default+final(For high level class)<br>
+            public+abstract+default+final+private+protected+static(For inner class)
+        </p2>
+    </div>
+    <hr>
+    <div class="class_modifier">
+        <h3><b><u>Member Modifiers</u></b>:-</h3>
+        <article>public,private and protected are the member modifiers.</article>
+    </div>
+    <div class="class_modifier_content">
+        <h3>
+            public:-
+        </h3>
+        <p>
+            package p1;<br>
+            class Test{<br>
+                public void m1(){<br>
+                    System.out.print("Hello java");<br>
+                }<br>
+            }<br><br>
+            package p2;<br>
+            import p1.A;<br>
+            public class B{<br>
+                public static void main(String[] ar){<br>
+                    A a=new A();<br>
+                    a.m1();<br>
+                }<br>
+            }
+        </p>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;When the method or variables is public then we can user anywhere either within the class or outside the class also within the package or outside the package.</i></h2>
+        <h3>
+            private:-
+        </h3>
+        <p>
+            class Test{<br>
+                private void m1(){<br>
+                    System.out.println("private modifier");<br>
+                }<br>
+            }<br>
+            class Test{<br>
+                public static void main(String[] ar){<br>
+                    A a=new A();<br>
+                    a.m1();<br>
+                }<br>
+            }<br><br>
+            compile time error occurs because m1() method is decleared as private. So, it only can be accessible with in the same class.
+        </p>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;When the class modifier is private then it is only accessiable in the same class or within the class.</i></h2>
+        <h3>
+            protected:-
+        </h3>
+        <p>
+           package p1;<br>
+           class A{<br>
+            protected void m1(){<br>
+                System.out.println("protected class");<br>
+            }<br>
+           }<br><br>
+           package p2;<br>
+           import p1.A;<br>
+           class B entends A{<br>
+                public static void main(String[] ar){<br>
+                    B b=new B();<br>
+                    b.m1();<br>
+                }<br>
+           }
+        </p>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;When the variables and methods are decleared as protected then it is used within the same package anywhere but outside the package it is used in the child class and only called by child refrence.</i></h2><hr>
+        </div>
+        <div class="button">
+            <a href="abstract_class.html"><input type="button" class="input" value="Jump to next Topic >"></a>
+        </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>abstract_class</title>
+    <link rel="stylesheet" href="designpage.css">
+    <link rel="icon" href="javalogo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="logo">
+        <a href="adhyankendramain.html"><img src="javalogo.png" alt="loading" height="100" width="100"></a> 
+    </div>
+    <hr>
+    <div class="class_modifier">
+        <h3><b><u>Abstract class</u></b>:-</h3>
+        <article>If a class implementation is not completed then we declear that class as abstract and also the object creation is not allowed.We can also say it is a concept of partially implementation of class.</article>
+        <h3>Important Facts:-</h3>
+        <p1 style="font-size: 20px;">
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;If a class contains at least one abstract method then that class must be abstract.</i><br>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;We also declear a class as abstract that does not contains any abstract method.</i><br>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Abstract class also contains zero number of abstract method.</i><br>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Child class is responsible for implementation of abstract method.</i><br>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;The implementation of all abstract method is in the child class.</i><br>
+        </p1>
+    </div>
+    <div class="class_modifier_content">
+        <h3>
+            eg:-
+        </h3>
+        <p>
+           abstract class Test{<br>
+                public abstract void m1();<br>
+                public abstract void m2();<br>
+           }<br>
+           class Subtest extends Test{<br>
+                public void m1(){<br>
+                    System.out.println("abstract method m1");<br>
+                }<br>
+                public boid m2(){<br>
+                    System.out.println("abstract method m2");<br>
+                }<br>
+           }
+        </p>
+        <h3>
+            eg:-
+        </h3>
+        <p>
+           abstract class Vehical{<br>
+                public abstract int noOfWheel();<br>
+           }<br>
+           class Bus extends Vehical{<br>
+                public int noOfWheel(){<br>
+                   return 6;<br>
+                }<br>
+           }<br>
+           class Auto extends Vehical{<br>
+            public int noOfWheel(){<br>
+               return 3;<br>
+            }<br>
+        }<br>
+        class Test{<br>
+            public static void main(String[] args){<br>
+                Bus b=new Bus();<br>
+                System.out.println(b.noOfWheel());<br>
+                Auto a=new Auto();<br>
+                System.out.println(a.noOfWheel());<br>
+            }<br>
+        }
+        </p>
+        </div><hr>
+        <div class="button">
+            <a href="constructor.html"><input type="button" class="input" value="Jump to next Topic >"></a>
+        </div>
+</body>
+</html>

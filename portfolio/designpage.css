@@ -1,0 +1,325 @@
+*{
+    margin:0 px;
+    padding:0 px;
+}
+.left img{
+    width: 59px;
+    margin-top:20px;
+    margin-left:62px;
+}
+.left p{
+    font-family: 'Merriweather', serif;
+    font-weight:bolder;
+    font-size:28px;
+    text-decoration: underline;
+    margin-top:5px;
+    margin-left:9px;
+}
+.navigation{
+    background-color:#a37a4e;
+    font-size:20px;
+    margin-top: -16px;
+}
+.navigation ul li{
+    display: inline;
+    margin-left:70px;
+    display:inline;
+}
+.navigation li a{
+    text-decoration: none;
+    color:white;
+    display: inline;
+    font-family: 'Merriweather', serif;
+}
+.submenu
+{
+    display:none;
+    margin-left:80px;
+}
+.navigation ul li:hover .submenu
+{
+    display:block;
+    position:absolute;
+    background-color: #a37a4e;
+    margin-left:220px;
+    margin-top:-2px; 
+}
+.navigation ul li:hover .submenu ul li
+{
+    display:block;
+    margin:8px;
+    border-bottom:2px solid white;
+    margin-right:40px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+.navigation ul li:hover .submenu ul li:last-child
+{
+    border-bottom: none;
+}
+.background
+{
+    margin-top:-16px;
+}
+/* .background form
+{
+    margin-top: -60%;
+    margin-left: 78%;
+    margin-right: 30px;
+    position: absolute;
+    font-family: 'Original Surfer', cursive;
+    background-color:rgba(191, 248, 243, 0.693);
+    border-radius: 15px;
+    box-shadow:0px 4px 2px 2px #a37a4e;
+}
+@media(max-width:575px){
+    .background form{
+        margin-left:0px;
+    }
+}
+.background form button{
+    border-radius: 10px;
+    padding:5px 60px;
+}
+.background form button:hover{
+    background-color: rgb(46, 2, 10);
+    color:khaki;
+    transition:500ms linear;
+} */
+.count
+{
+    background-color:rgba(191, 248, 243, 0.693) ;
+}
+.photo{
+    display:inline-block;
+}
+
+element.style {
+    border: 5px solid purple;
+    color: black;
+}
+.team{
+    display: flex-box;  
+}
+@media(min-width:1200px)
+{
+    .team{
+        display:inline-flex;
+    }
+}
+.card{
+    border-radius: 10px 10px;
+    margin: 10px;
+    margin-left:35px;
+    background-color: rgba(222, 184, 135, 0.816);
+    border: 2px solid rgb(197, 42, 107);
+    box-shadow: 2px 5px 10px black;
+}
+.support{
+    background-color:rgba(179, 118, 118, 0.618);
+    width:95%;
+    border-radius: 10px 10px;
+    margin-left:2.7%;
+    text-align: center;
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.card:hover{
+    background-color:rgb(46, 2, 10);
+    transition:500ms linear;
+    color: khaki;
+    box-shadow: 2px 5px 15px rgb(221, 54, 137);
+}
+.img-thumbnail{
+    height:300px;
+    border-radius:500px;
+}
+
+.card-title{
+    text-align:center;
+    color:rgb(220, 20, 103);
+    font-weight:bolder;
+    font-family: 'Times New Roman';
+}
+.card-text{
+    text-align: center;
+    font-weight: normal;
+}
+.bottom-left
+{
+    position:absolute;
+}
+.bottom
+{
+    background-color:rgba(191, 248, 243, 0.693);
+}
+.bottom img
+{
+    display:inline;
+    margin-left:5%;
+}
+.bottom h2
+{
+    margin-top:-100%;
+    display:inline;
+    font-size: xx-large;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color:rgb(46, 2, 10);
+    font-weight: bolder;
+}
+.footer{
+    background-color: rgba(191, 248, 243, 0.693);
+}
+.footercontent{
+    border-top:1px solid grey;
+    text-align: center;
+    font-weight:bold;
+    color:rgb(46,2,10);
+    padding: 30px;
+}
+.logo img
+{
+    display:inline;
+    margin-left:3%;
+}
+.history
+{
+    display:inline-block;
+}
+.head h2
+{
+    cursor: pointer;
+    display: flex;
+    color:rgb(27, 13, 226);
+    font-size:30px;
+    text-decoration: underline;
+}
+.history
+{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.history p
+{
+    font-size: 24px;
+    font-weight:lighter;
+    text-align:left ;
+}
+.image
+{
+    display: inline-flex;
+}
+.application h3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.application ol li
+{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+}
+.last h3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.last ol{
+    font-weight: bold;
+}
+.last ol li{
+    font-weight: normal;
+    font-size: 24px;
+}
+.oop li{
+    font-weight: normal;
+    font-size: 24px;
+}
+.button input{
+   color: black;
+   padding:7px 8px;
+   background-color: crimson;
+   border-radius: 10px;
+   outline:none;
+   cursor: pointer;
+   font-weight: bolder;
+}
+.button input:hover{
+    background-color:rgb(46,2,10);
+    color:khaki;
+    transition:500ms linear;
+}
+.file h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.file article{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.file1 h2{
+    border:3px solid crimson;
+    border-radius: 5px;
+}
+.file2 h2{
+    border:3px solid crimson;
+    border-radius: 5px;
+}
+.file1 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.file2 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.class_modifier h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.class_modifier article{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.class_modifier_content h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.class_modifier_content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color:darkmagenta
+}
+.class_modifier_content h2{
+    border:3px solid crimson;
+    border-radius: 5px;
+}
+.class_modifier_content ,p1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.class_modifier_content p2{
+    border:3px solid rgb(220, 20, 103);  
+    display: inline-flex;
+    padding: 12px 13px;
+    border-radius: 5px;
+}

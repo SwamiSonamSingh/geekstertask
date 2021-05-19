@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>constructor</title>
+    <link rel="stylesheet" href="designpage.css">
+    <link rel="icon" href="javalogo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="adhyankendramain.html"><img src="javalogo.png" alt="loading" height="100" width="100"></a>
+    </div>
+    <hr>
+    <div class="class_modifier">
+        <h3><b><u>Constructor</u></b>:-</h3>
+        <article>Constructor is used to perform initillization of object. It is necessary that the name of constructor
+            is same as the class name..</article>
+        <h3>Important Facts:-</h3>
+        <p1 style="font-size: 20px;">
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;For every object the constructorwill be executed only
+                once.</i><br>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Constructor has no return type.</i><br>
+            <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;It allowed public, default, protected, private
+                modifiers.</i><br>
+        </p1>
+    </div>
+    <div class="class_modifier_content">
+        <h3>
+            eg:-
+        </h3>
+        <p>
+            class Student{<br>
+            String name;<br>
+            int roll;<br>
+            Student(String name,int roll){<br>
+            this.name=name;<br>
+            this.roll=roll;<br>
+            }<br>
+            }<br>
+            class Test{<br>
+            public static void main(String[] args){<br>
+            Student s1=new Student("Ram",10);<br>
+            System.out.println(s1.name);<br>
+            System.out.println(s1.roll);<br>
+            }<br>
+            }
+        </p>
+    </div>
+    <hr>
+    <h3 style="font-size: 24px;"><b><u>this & super keyword</u></b>:-</h3>
+    <p1 style="font-size: 20px;">
+        <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;this keyword is used to invoke current instance of
+            object</i><br>
+        <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;super keyword is used to invoke parent class
+            object.</i><br>
+        <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;super & this keyword is used anywhere excepr static
+            area.</i><br>
+    </p1>
+    <div class="class_modifier_content">
+        <h3>
+            eg:-
+        </h3>
+        <p>
+            class Parent{<br>
+            String name="Parent class";<br>
+            }<br>
+            class Cild extends Parent{<br>
+            String name="Child class";<br>
+            public void m1(){<br>
+            System.out.println(name);//by default child class<br>
+            System.out.print(this.name);//current invoking object i.e. child class<br>
+            System.out.println(super.name);//parent class object<br>
+            }<br>
+            }
+            class Test{<br>
+            public static void main(String[] args){<br>
+            Child c=new Child();<br>
+            c.m1();
+            }<br>
+            }
+        </p>
+    </div>
+    <hr>
+    <h3 style="font-size: 24px;"><b><u>static</u></b>:-</h3>
+    <p1 style="font-size: 20px;">
+        <i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;static block is executed at the time of class loading and it run only ones.</i><br>
+        </p1><hr>
+        <div class="button">
+            <a href="interface.html"><input type="button" class="input" value="Jump to next Topic >"></a>
+        </div>
+</body>
+
+</html>

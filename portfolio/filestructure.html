@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>java_file_structure</title>
+    <link rel="stylesheet" href="designpage.css">
+    <link rel="icon" href="javalogo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="logo">
+        <a href="adhyankendramain.html"><img src="javalogo.png" alt="loading" height="100" width="100"></a> 
+    </div>
+    <hr>
+    <div class="file">
+        <h3>Java File Structure:-</h3>
+        <article>A java file contains more than one classes but it is also true that a java file contains at most one public class.</article>
+    </div><br>
+    <div class="file1">
+        <h3><u>eg:-</u><br>
+        class A{<br>
+            &nbsp;&nbsp;public static void main(String[] args){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Class A invoked");<br>
+            &nbsp;&nbsp;}<br>
+        }<br>
+        class B{<br>
+            &nbsp;&nbsp;public static void main(String[] args){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Class B invoked");<br>
+            &nbsp;&nbsp;}<br>
+        }<br>
+        class C{<br>
+            &nbsp;&nbsp;public static void main(String[] args){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Class C invoked");<br>
+            &nbsp;&nbsp;}<br>
+        }</h3>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;<b>In the above example we can save this file either A.java/B.java/C.java/anyname.java because in this java file there is no any public class. And when the code compiled three class files are created A.class,B.class & C.class and the according to our need we run our desired class file. So when there no public class avilable then we save that java file to any name.</b></i></h2>
+    </div>
+    <div class="file2">
+        <h3><u>eg:-</u><br>
+        class A{<br>
+            &nbsp;&nbsp;public static void main(String[] args){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Class A invoked");<br>
+            &nbsp;&nbsp;}<br>
+        }<br>
+        public class B{<br>
+            &nbsp;&nbsp;public static void main(String[] args){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Class B invoked");<br>
+            &nbsp;&nbsp;}<br>
+        }<br>
+        class C{<br>
+            &nbsp;&nbsp;public static void main(String[] args){<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Class C invoked");<br>
+            &nbsp;&nbsp;}<br>
+        }</h3>
+        <h2><i class="fa fa-hand-o-right" aria-hidden="true">&nbsp;<b>In the above example we can save this file only as B.java, because it i specify that the java file must be same as the public class.Otherwise it thow us compile time error.</b></i></h2>
+    </div>
+    <div class="button">
+        <a href="modifiers.html"><input type="button" class="input" value="Jump to next Topic >"></a>
+    </div>
+</body>
+</html>
