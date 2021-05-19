@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>kumbhregistration</title>
+</head>
+
+<body class="reg">
+    <marquee behavior="alternate" scrolldelay="10" scrollamount="9" onmouseover="this.stop();"
+        onmouseout="this.start();">
+        <a class="kumbh-head">कुंभ २०२१ में आप सभी श्रद्धालु का हार्दिक स्वागत है!
+            </a>
+    </marquee>
+    <br>
+    <h2 class="hindi">कृप्या अपने पंजीकरण की प्रक्रिया शुरू करें</h2>
+    <form>
+            <hr style="margin-left: 20px;">
+            <div class="container design">
+            <br>
+            Firstname:-<input type="text" size="15">&ensp;
+            Surname:-<input type="text" size="15">
+            Father/Husband Name:-<input type="text">
+            <br><br>
+            DOB:-<input type="date">&emsp;
+            Age:-<input type="text" placeholder="XX" maxlength="2" size="2">&emsp;
+            Number of Memebers:-<input type="text" placeholder="XX" maxlength="2" size="2">&emsp;
+            Upload photo<input type="file">
+            <br><br>
+            Mobile No:-<input type="text" placeholder="only numeric" maxlength="10">&emsp;&ensp;
+            E-mail:-<input type="email" placeholder="abcd@gmail.com">&emsp;&ensp;
+            Aadhar:-<input type="text" placeholder="XXXX-XXXX-XXXX">
+            <br><br>
+           Gender:<input type="radio" id="male" name="gender" value="male">
+           <label for="male">Male</label>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Female</label>
+           <input type="radio" id="other" name="gender" value="other">
+           <label for="other">Other</label><br>
+           <br>
+           <label for="state">State:</label>
+           <select name="state" id="state">
+            <option value="select">--Select State--</option>
+             <option value="Aandhra">Aandhra Pradesh</option>
+             <option value="Arunachal">Arunachal Pradesh</option>
+             <option value="Aadhar">Aasam</option>
+             <option value="Bihar">Bihar</option>
+             <option value="Chhatishgarh">Chhatishgarh</option>
+             <option value="Delhi">Delhi</option>
+             <option value="Goa">Goa</option>
+             <option value="Gujrat">Gujrat</option>
+             <option value="Haryana">Haryana</option>
+             <option value="Himachal">Himachal Pradesh</option>
+             <option value="Jharkhand">Jharkhand</option>
+             <option value="Karnataka">Karnataka</option>
+             <option value="Kerala">Kerala</option>
+             <option value="Madhya">Madhya Pradesh</option>
+             <option value="Manipur">Manipur</option>
+             <option value="Mizoram">Mizoram</option>
+             <option value="Meghalaya">Meghalaya</option>
+             <option value="Nagaland">Nagaland</option>
+             <option value="Odisha">Odisha</option>
+             <option value="Punjab">Punjab</option>
+             <option value="Rajasthan">Rajasthan</option>
+             <option value="Sikkim">Sikkim</option>
+             <option value="Tamil">Tamil Nadu</option>
+             <option value="Telangana">Telangana</option>
+             <option value="Tripura">Tripura</option>
+             <option value="Uttrakhand">Uttrakhand</option>
+             <option value="Uttar">Uttar Pradesh</option>
+             <option value="West">West Bengal</option>
+           </select>
+           <label for="district">District:</label>
+           <select name="district" id="district">
+            <option value="select">--Select District--</option>
+             <option value="Araria">Araria</option>
+             <option value="Arwal">Arwal</option>
+             <option value="Aurangabad">Aurangabad</option>
+             <option value="Banka">Banka</option>
+             <option value="Begusarai">Begusarai</option>
+             <option value="Bhagalpur">Bhagalpur</option>
+             <option value="Bhojpur">Bhojpur</option>
+             <option value="Buxar">Buxar</option>
+             <option value="Darbangha">Darbangha</option>
+             <option value="Gaya">Gaya</option>
+             <option value="Katihar">Katihar</option>
+             <option value="Madhubani">Madhubani</option>
+             <option value="Nalanda">Nalanda</option>
+             <option value="Nawada">Nawada</option>
+             <option value="Patna">Patna</option>
+             </select>
+             PinCode:-<input type="text" maxlength="6">
+             Locality:-<input type="text" maxlength="15"><hr>
+             <h5 style="font-weight:bolder;">Terms & Conditions:-</h5>
+             <h6 style="font-weight: bolder;">(i).Explosive things are strictly prohibted.<br>
+             (ii).Any type of weapons are not allowed.<br>
+             (iii).Any person who found guilty then they are jailed.</h6>
+             <hr>
+             <h6 style="text-align: center;font-weight: bolder;"> <input type="checkbox">I accept the terms & Conditions</h6>
+             <a href="welcome.htm" target="_blank" style="margin-left:420px;"><button type="button" class="btn btn-outline-success">Submit</button></a>
+             <button type="button" class="btn btn-outline-danger" style="margin-left:80px;">Reset</button>
+             <hr>
+             <h4 class="copyright">
+                &copy; Copyright 2021,Journey Mantra
+             </h4>
+        </div>
+    </form>
+</body>
+</html>
