@@ -2,7 +2,7 @@ var object={
     name:"Swami Sonam Singh",
     age:24,
     locality:"Patna",
-    caste:"Kurmi",
+    caste:"Raghubanshi",
 }
 object.obj1={
     age:"24",
