@@ -14,7 +14,7 @@ body{
 }
 @media(max-width:575px){
     .head{
-        margin-left:50px;
+        margin-left:0px;
     }
 }
 #timer{
