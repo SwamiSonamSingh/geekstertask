@@ -30,3 +30,5 @@ https://swamisonamsingh.github.io/geekstertask/stopwatchclock/index.html
 ---------------------------------------------------------------------------
 https://swamisonamsingh.github.io/geekstertask/videoGallery/index.html
 -------------------------------------------------------------------------
+https://swamisonamsingh.github.io/geekstertask/slider/index.html
+-----------------------------------------------------------------
