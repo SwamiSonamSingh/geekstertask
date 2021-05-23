@@ -34,3 +34,5 @@ https://swamisonamsingh.github.io/geekstertask/slider/index.html
 -----------------------------------------------------------------------------
 https://swamisonamsingh.github.io/geekstertask/countryCode/index.html
 ----------------------------------------------------------------------
+https://swamisonamsingh.github.io/geekstertask/usergenerator/index.html
+--------------------------------------------------------------------------
