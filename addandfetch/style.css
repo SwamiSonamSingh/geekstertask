@@ -1,0 +1,58 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    border: 2px solid coral;
+    border-radius: 10px;
+    background-color: coral;
+}
+.main{
+    padding:50px 50px 50px 50px;
+}
+#name{
+    font-size:20px;
+    width:90%;
+    border-radius: 5px;
+    border:2px solid maroon;
+}
+#hobbies{
+    font-size:20px;
+    width:90%;
+    border-radius: 5px;
+    border:2px solid maroon;
+}
+.container h2{
+    font-weight:bold;
+}
+#submit{
+    color:white;
+    padding:5px 5px 5px 5px;
+    background-color: rgb(212,135,18);
+    font-weight: bold;
+    font-size:23px;
+    border-radius: 7px;
+    border: 2px solid rgb(212,135,18);
+    cursor: pointer;
+}
+#submit:hover{
+    color:rgb(212,135,18);
+    background-color: white;
+    transition: 500ms linear;
+}
+.content{
+    display: inline-flex;
+}
+.card{
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.card h2{
+    padding:0px 60px 0px 60px;
+    font-weight: bold;
+    font-size: large;
+}
+.card h3{
+    margin-left: 10%;
+}
