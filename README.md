@@ -33,6 +33,8 @@ https://swamisonamsingh.github.io/geekstertask/videoGallery/index.html
 https://swamisonamsingh.github.io/geekstertask/slider/index.html
 -----------------------------------------------------------------------------
 https://swamisonamsingh.github.io/geekstertask/countryCode/index.html
+-----------------------------------------------------------------------------
+https://swamisonamsingh.github.io/geekstertask/animated/index.html
 ----------------------------------------------------------------------
 https://swamisonamsingh.github.io/geekstertask/usergenerator/index.html
 --------------------------------------------------------------------------
