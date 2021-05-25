@@ -1,0 +1,196 @@
+.heading{
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    color: #ff4d4d;
+}
+.main{
+    margin:10px 10px 34px 20px;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    color:red;
+    font-weight:bolder;
+    margin-left:50px;
+}
+.main1{
+    margin-left:135px;
+    margin-top: 30px;
+   display:inline-flex;
+   font-family: sans-serif;
+   border:3px solid rgb(172, 83, 83);
+   height: 250px;
+   width:160px;
+   border-top-left-radius:25px;
+   border-bottom-right-radius:25px;
+   color:#673232;
+   font-weight: bold;
+   font-style:italic;
+}
+.head{
+    font-family: 'Akaya Telivigala', cursive;
+    display: flex;
+}
+.content{
+    margin-left:50px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size:24px;
+    font-weight:initial;
+}
+.animation{
+        color: maroon;
+        text-decoration: underline;
+}
+span {
+    animation: glow-in 0.8s both;
+    /* text-decoration: underline; */
+  }
+      @keyframes glow-in {
+        from {
+          opacity: 0;
+        }
+        65% {
+          opacity: 1;
+          text-shadow: 0 0 250px rgb(236, 44, 10);
+        }
+        75% {
+          opacity: 1;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+.service:hover{
+    color:crimson;
+}
+.service{
+    font-family:'Roboto Slab', serif;
+    color:navy;
+    font-weight:bolder;
+    font-size: 30px;
+}
+.text{
+    font-family:'Akaya Telivigala', cursive;
+    font-weight:lighter;
+    font-size: 20px;
+}
+.imageutt{
+    margin-left: 100px;
+}
+.places{
+    font-family:'Roboto Slab', serif;
+    color:navy;
+    font-weight:bolder;
+    font-size: 30px;
+}
+.imgdecor{
+    margin-left:100px;
+}
+.economytext{
+    margin-left: 1.2em;
+    font-size: 40px;
+    color:orangered;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bolder;
+}
+.ecotable{
+   height:200px;
+   width:1000px;
+}
+.contenteco{
+    margin-left: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight:lighter;
+    font-size:20px;
+}
+.headeco{
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bolder;
+    margin-left: 1.2em;
+    font-size: 40px;
+}
+.designeco{
+    margin-left: 50px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight:lighter;
+    font-size:20px;
+}
+caption:hover{
+    color:peru;
+    font-weight: bolder;
+}
+.linkeconomy:hover{
+    color:red;
+    font-weight: bolder;
+}
+kbd:hover{
+    color:black;
+    background-color: blue;
+}
+kbd{
+    font-family:'Akaya Telivigala', cursive;
+    font-size: 20px;
+    background-color:red;
+    margin-left:650px;
+}
+.copyright:hover{
+    color:crimson;
+}
+.copyright{
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align:center;
+    font-size:20px;   
+    color:black;
+}
+.registration:hover{
+    color:red;
+    font-weight:bolder;
+    background:blanchedalmond;
+}
+.registration{
+    text-align:center;
+    font-family:'Akaya Kanadaka', cursive ;
+    background:rgb(20, 209, 175);
+    border-radius: 60px;
+    margin-left: 40px;
+}
+.reg{
+    background-image:url('kumbh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+}
+.kumbh-head:hover{
+    background: greenyellow;
+    color:hotpink;
+}
+.kumbh-head{
+    color:orangered;
+    font-size:20px;
+    background:powderblue;
+    border-radius: 4px;
+}
+.design{
+    font-family:'Shippori Mincho B1', serif;
+    font-size:18px;
+    font-weight:bold;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: -1em;
+    padding-left: -20em;
+    background-color: rgba(253, 248, 248, 0.65);
+    box-shadow: 4px -4px orange;
+    color:black;
+}
+.hindi{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    color:rgba(31, 60, 11, 0.707);
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgba(10, 10, 10, 0.3);
+    border-radius: 10px;
+    margin-left:20px;
+}
