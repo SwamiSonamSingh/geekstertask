@@ -44,3 +44,5 @@ https://swamisonamsingh.github.io/geekstertask/addandfetch/index.html
 ----------------------------------------------------------------------
 https://swamisonamsingh.github.io/geekstertask/guessgame/index.html
 --------------------------------------------------------------------
+https://swamisonamsingh.github.io/geekstertask/covidtracker/index.html
+-------------------------------------------------------------------------
