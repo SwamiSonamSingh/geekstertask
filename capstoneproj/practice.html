@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlKu9_P5dki7a0--8pKC0XwsaGusfWJiiKsduFBGpc54ba_ZvfK3Lfq9J37UlxwZiT48&usqp=CAU"
+        type="image/logo type" />
+        <link rel="stylesheet" href="./style1.css">
+    <style>
+       .second{
+           color: mediumvioletred;
+       }
+       .hsecond{
+           color:orangered;
+       }
+    </style>
+</head>
+<body>
+    <div class="main" id="main">
+        <p style="color:maroon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, temporibus?</p>
+    
+    <h1 style="color: olivedrab;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ad!</h1>
+    
+    <p class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magni nisi nulla laborum consectetur? Ratione voluptates dolores quas obcaecati nesciunt a dolorem dignissimos maxime itaque, ex, natus nostrum nobis explicabo.</p>
+    
+    <h2 class="hsecond">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat adipisci tempora architecto quasi veniam non!</h2>
+    
+    <p class="third" id="third">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat in, mollitia debitis ipsum at sit quas laborum adipisci placeat ea natus id, quidem magnam cum itaque ipsam quis. Mollitia libero dignissimos, dicta nam sint tempora assumenda dolore hic ad beatae asperiores repellat. Vitae, ipsa?</p>
+    
+    <h3 class="hthird" id="hthird">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cupiditate maxime consequuntur deserunt id nostrum. Dicta obcaecati corporis officiis consectetur?</h3>
+    
+    <h4 class="hforth">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat esse veniam et labore illo, id similique fugiat corrupti, dignissimos eos quas velit exercitationem consequatur. Ipsam?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis magni illo libero ducimus vel, doloremque voluptatibus autem harum nam, iure necessitatibus sed consequatur qui repudiandae dolores quam aliquid quis tempore veritatis totam excepturi aliquam? Quaerat debitis a reprehenderit! Fugit libero quia facilis aliquid blanditiis dolorem minima reprehenderit, nobis eos quo dicta in eligendi doloribus minus eum vero suscipit! Odio laborum reiciendis magni dolor doloribus ex voluptates esse possimus. Eum doloribus incidunt voluptatibus, sed ipsum facere exercitationem quia dolor? Magni deleniti temporibus aliquam iusto sunt, ipsum nihil, doloribus explicabo dolorum iste nulla ad est delectus provident sed autem aperiam eveniet animi?
+    </h4>
+    <div class="box">
+        <h1>Box model implementation</h1>
+    </div>
+    <input type="button" value="Click" id="button">
+    </div>
+    <script>
+        let btn=document.getElementById("button")
+        let main=document.getElementById("main")
+        let para=document.getElementById("third")
+        let head=document.getElementById("hthird")
+        btn.addEventListener("click",()=>{
+            main.style.backgroundColor = "white";
+            para.innerHTML="paragraph changed"
+            para.style.fontSize="100px"
+            head.innerHTML="heading changed"
+            head.style.fontSize="100px"
+            
+        })
+    </script>
+</body>   
+</html>

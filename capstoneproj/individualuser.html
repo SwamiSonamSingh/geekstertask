@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>individual user</title>
+</head>
+<body>
+    <div class="individualmain">
+        <div class="indhead">
+            <form action="">
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="mobile">Mobile Number</label><br>
+                <input type="text" id="mobile" name="mobile" required><br>
+                <lebel for="aadhar">Aadhar Number</lebel><br>
+                <input type="text" id="aadhar" name="aadhar"><br>
+                <lebel for="dob">Date of Birth</lebel>
+                <input type="date" id="dob" name="dob"><br>
+                <lebel for="address">Enter full address</lebel><br>
+                <textarea id="address" name="address" rows="5" cols="45" style="outline: none;border:2px solid rgb(84,232,229);border-radius: 5px;margin-top: 10px;margin-bottom: 5px;"></textarea><br>
+                <lebel for="select">Select Insurance For</lebel>
+                <select style="height:20px;width:100%;outline: none;border:2px solid rgb(84,232,229);border-radius: 5px;margin-top: 10px;margin-bottom: 5px;">
+                    <option value="">--Select Option--</option>
+                    <option value="lands">Lands</option>
+                    <option value="electronics">Electronic Devices</option>
+                    <option value="shops">Shops</option>
+                    <option value="jwellery">Jwellery</option>
+                    <option value="furnitures">Furnitures</option>
+                    <option value="others">Others</option>
+                </select><br>
+                <lebel for="details">Brief about selected type</lebel><br>
+                <textarea id="details" name="details" rows="5" cols="45" style="outline: none;border:2px solid rgb(84,232,229);border-radius: 5px;margin-top: 10px;margin-bottom: 5px;"></textarea><br>
+                <lebel for="startdt">Insurance start date</lebel>
+                <input type="date" name="startdt" id="startdt"><br>
+                <lebel for="enddt">Insurance end date</lebel>
+                <input type="date" name="enddt" id="enddt"><br>
+                <div class="btnquote">
+                    <button>Get Quote</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

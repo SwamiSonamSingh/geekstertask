@@ -1,0 +1,617 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    background-color: #A20D3B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    padding:10px;
+}
+.main button{
+  background-color: white;
+  color:#A20D3B;
+  padding:5px 10px;
+  border:2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.main button:hover{
+  transition: 500ms linear;
+  color: white;
+  background-color: green;
+}
+.welcome{
+    margin:10px 10px;
+    background-color: rgba(48, 196, 194, 0.673);
+    border-radius: 10px;
+}
+.welcome marquee{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:5px;
+    font-size: 30px;
+    color:rgb(14, 13, 13);
+}
+.navigation{
+  background-color: #A20D3B;
+  margin:0 10px;
+  border-radius: 10px;
+}
+.navigation ul{
+  display: flex;
+  justify-content: space-around;
+}
+.navigation ul li{
+  list-style: none;
+  font-weight: bold;
+  font-size: large;
+  color:white;
+  padding:10px 0px;
+}
+.navigation ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:40px 0;
+}
+@media (max-width:1004px){
+  .flip-card{
+    margin-bottom:30px;
+  }
+}
+.flip-card:hover{
+  cursor: pointer;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #A20D3B;
+    perspective: 1000px;
+    border-radius: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front {
+    
+    color: black;
+    border-radius: 10px;
+  }
+  .flip-card-front img{
+    max-height: 280px;
+    max-width: 250px;
+  }
+  .flip-card-back {
+    /* background-color: #A46828; */
+    color: #A20D3B;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+.carousel-item img{
+    max-height: 400px;
+}
+.services{
+  background-color: #A20D3B;
+  margin-top: 20px;
+}
+.services h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  padding:5px;
+  font-size: 30px;
+}
+.footer{
+  background-color: #E4E4E4;
+  display: flex;
+  justify-content: space-around;
+  color:#656565;
+}
+.leftpart ul li{
+  list-style: none;
+  margin-top:20px;
+}
+.fa-facebook{
+color:blue;
+}
+.fa-instagram{
+  color:red;
+}
+.fa-twitter{
+  color:rgb(16, 133, 169);
+}
+.loginmain{
+    margin:10px 10px;
+    background-color: #A20D3B;
+    border-radius: 10px;
+}
+.loginmain marquee{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:5px;
+    font-size: 30px;
+    color:white;
+}
+.homeicon{
+  margin-top: 40px;
+  /* margin-left: 20px; */
+  display: flex;
+  justify-content: center;
+}
+.homeicon a{
+  color:black;
+  font-weight: lighter;
+  border:1px solid grey;
+  padding:10px 20px;
+  border-radius: 25px;
+}
+.homeicon a:hover{
+  color:white;
+  background-color: black;
+  transition: 500ms linear;
+}
+.formsection{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.details{
+  display: flex;
+  justify-content: center;
+  border:2px solid grey;
+  padding:2% 8%;
+  border-radius: 10px;
+}
+.details form input{
+  border-radius: 5px;
+  font-size: 20px;
+  border:2px solid rgb(106, 102, 102);
+  height: 30px;
+  width: 100%;
+  outline: none;
+}
+.details form button{
+  padding:10px 60px;
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(40, 177, 40);
+  border:2px solid rgb(40, 177, 40);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.button button{
+  font-size: 15px;
+}
+.signup{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.signupsection{
+  margin-right: 10px;
+}
+.signupsection a{
+  text-decoration: none;
+  color:grey;
+  font-size: 20px;
+}
+.signupsection a:hover{
+  text-decoration: underline;
+}
+.forgotpassword{
+  margin-left: 10px;
+}
+.forgotpassword a{
+  text-decoration: none;
+  color:grey;
+  font-size: 20px;
+}
+.forgotpassword a:hover{
+  text-decoration: underline;
+}
+.mainsignup{
+  margin: 10px 10px 0px 10px;
+  background-color: #A20D3B;
+  border-radius: 10px;
+}
+.mainsignup h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  padding:10px 0;
+  text-align: center;
+  font-weight: lighter;
+}
+.infosignup{
+  margin-top: 20px;
+  border-right:2px solid gray;
+  border-bottom: 2px solid gray;
+  padding:10px 10%;
+  border-radius: 10px;
+  box-shadow:-5px -5px #A20D3B;
+}
+.infosignup form lebel p{
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+}
+.infosignup form input{
+  border-radius: 5px;
+  font-size: 20px;
+  border:2px solid rgb(106, 102, 102);
+  height: 30px;
+  width: 600px;
+  outline: none;
+}
+.formsignup{
+  display: flex;
+  justify-content: center;
+}
+.buttonsignup{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.buttonsignup button{
+  padding:10px 100px;
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(40, 177, 40);
+  border:2px solid rgb(40, 177, 40);
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.formforgot{
+  display: flex;
+  justify-content: center;
+}
+.infoforgot{
+  box-shadow: -5px -5px #A20D3B;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding:30px 40px;
+}
+.infoforgot form lebel p{
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+}
+.infoforgot form input{
+  border-radius: 5px;
+  font-size: 20px;
+  border:2px solid rgb(106, 102, 102);
+  height: 30px;
+  width: 600px;
+  outline: none;
+}
+.forgotbutton{
+  display: flex;
+  justify-content: center;
+}
+.forgotbutton button{
+  padding:10px 100px;
+  border-radius: 5px;
+  color:white;
+  background-color: #A20D3B;
+  border:2px solid #A20D3B;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.servicesmain{
+  margin: 10px 10px 0px 10px;
+  background-color: #A20D3B;
+  border-radius: 10px;
+}
+.servicesmain h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  padding:10px 0;
+  text-align: center;
+  font-weight: lighter;
+}
+.servicesform{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.servicesform form{
+  margin-top: 20px;
+  border-right:2px solid gray;
+  border-bottom: 2px solid gray;
+  padding:10px 10%;
+  border-radius: 10px;
+  box-shadow:-5px -5px #A20D3B;
+}
+.servicesform form label p{
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+}
+.servicesform form input{
+  border-radius: 5px;
+  font-size: 20px;
+  border:2px solid rgb(106, 102, 102);
+  height: 30px;
+  width: 600px;
+  outline: none;
+}
+.servicesbutton{
+  display: flex;
+  justify-content: center;
+}
+.servicesbutton button{
+  padding:10px 100px;
+  border-radius: 5px;
+  color:white;
+  background-color: green;
+  border:2px solid green;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.back{
+  background-image: url("https://images.unsplash.com/photo-1625186784121-39d71a48f5d0?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8TThqVmJMYlRSd3N8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutmain{
+  display: flex;
+  justify-content:space-around;
+}
+.contentabout{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  background-color: rgba(245, 222, 179, 0.639);
+  padding:40px;
+  border-radius: 5px;
+}
+.contentabout ul li{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+.contentabout h1{
+  text-align: center;
+  background-color: #A20D3B;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:10px 0;
+  border-radius: 10px;
+}
+.formabout{
+  margin-top: 20px;
+  margin-right: 30px;
+  background-color: rgba(245, 222, 179, 0.639);
+  padding:40px;
+  border-radius: 5px;
+}
+.formabout h1{
+  text-align: center;
+  background-color: #A20D3B;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:10px 0;
+  border-radius: 10px;
+}
+.formabout form lebel{
+  text-align: center;
+  font-size: 20px;
+}
+.formabout form input{
+  border-radius: 5px;
+  font-size: 20px;
+  border:2px solid rgb(106, 102, 102);
+  height: 30px;
+  width: 100%;
+  outline: none;
+}
+#aboutbtn{
+  padding:10px 100px;
+  border-radius: 5px;
+  color:white;
+  background-color: rgb(40, 177, 40);
+  border:2px solid rgb(40, 177, 40);
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.servicehead{
+  background-color: #A20D3B;
+  margin:10px 10px 0 10px;
+  border-radius: 10px;
+}
+.servicehead h1{
+  padding:10px 0;
+  text-align: center;
+  color:#E4E4E4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.servicecards{
+  display:flex;
+  justify-content: space-around;
+  margin: 5% 2% 0 2%;
+  background-color: rgba(188, 218, 19, 0.383);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px #A20D3B;
+}
+@media(max-width:829px){
+  .servicecards{
+    flex-wrap: wrap;
+  }
+}
+.card{
+  display: inline;
+  padding:30px 0;
+  border:2px solid rgba(188, 218, 19, 0.383);
+  border-radius: 5px;
+  margin: 2% 0;
+  box-shadow:2px 2px 5px 2px royalblue;
+  background-color: white;
+}
+.serviceimage img{
+  height: 200px;
+  width:200px;
+}
+.servicebtn{
+  display: flex;
+  justify-content: center;
+}
+.servicebtn button{
+  background-color: #5BC0DE;
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding:5px 30px;
+  margin-top:20px;
+  border:2px solid #5BC0DE;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.servicebtn button:hover{
+  transition: 500ms linear;
+  background-color: green;
+  color:white;
+  border:2px solid green;
+}
+.carousel-item{
+  margin-top: 20px;
+}
+.carousel-item img{
+  max-height: 500px;
+
+}
+.quotecvg{
+  background-color: #A20D3B;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 3px #5BC0DE;
+  margin:20px 20px 0 20px;
+}
+.quotecvg h1{
+  color:white;
+  padding:10px 0;
+  font-family: 'Nunito',sans-serif;
+  text-align: center;
+
+}
+.coveragecard{
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 20px 50px 20px;
+  background-color: rgba(188, 218, 19, 0.383);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 2px maroon;
+}
+@media(max-width:818px){
+  .coveragecard{
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+}
+.cardcv{
+  margin: 20px 0;
+  border:2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 2px #5BC0DE;
+}
+.cvgimage img{
+  max-height:350px;
+  max-width:300px;
+  border-bottom: 2px solid black;
+}
+.cvgbtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cvgbtn button{
+  background-color: green;
+  color:white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding:5px 40px;
+  border:2px solid green;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.modal-body i{
+  margin-left: 20%;
+  font-size: 30px;
+  color:green
+}
+.modal-body i p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:black
+}
+.individualmain{
+  display:flex;
+  justify-content: center;
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(84, 232, 229);
+}
+.indhead{
+  border:2px solid black;
+  padding:30px 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.indhead input{
+  height:25px;
+  width:100%;
+  outline: none;
+  border:2px solid rgb(84, 232, 229);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.btnquote{
+  display: flex;
+  justify-content: center;
+}
+.btnquote button{
+  padding:8px 70px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: green;
+  color:white;
+  border: 2px solid green;
+}
